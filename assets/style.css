@@ -1,0 +1,78 @@
+:root{
+  --bg:#f7f6f3; --ink:#1c1b19; --muted:#6b6862; --line:#e2ded6;
+  --accent:#2c5f6f; --fact:#1f6b46; --fact-bg:#eaf4ee;
+  --claim:#9a6a1a; --claim-bg:#f8f0e0; --card:#ffffff;
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",sans-serif;
+  line-height:1.75; font-size:17px; -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:760px; margin:0 auto; padding:0 22px 90px}
+a{color:var(--accent)}
+
+/* ── 상단 내비게이션 (개별 글) ── */
+.topbar{max-width:760px; margin:0 auto; padding:20px 22px 0; display:flex; justify-content:space-between; align-items:center; font-size:14px}
+.topbar a{text-decoration:none; font-weight:700}
+.topbar .ep{color:var(--muted); font-weight:700; letter-spacing:.04em}
+
+/* ── 글 헤더 ── */
+header.hero{padding:34px 0 34px; border-bottom:1px solid var(--line)}
+.kicker{color:var(--accent); font-weight:700; letter-spacing:.06em; font-size:13px; text-transform:uppercase; margin-bottom:14px}
+h1{font-size:34px; line-height:1.28; margin:0 0 18px; font-weight:800; letter-spacing:-.01em}
+.lede{color:var(--muted); font-size:18px; margin:0}
+.meta{margin-top:22px; color:var(--muted); font-size:14px}
+h2{font-size:24px; margin:54px 0 14px; font-weight:800; letter-spacing:-.01em; padding-top:8px}
+h3{font-size:19px; margin:30px 0 8px; font-weight:700}
+p{margin:14px 0}
+
+/* ── 본문 구성요소 ── */
+.note{background:var(--card); border:1px solid var(--line); border-radius:14px; padding:20px 22px; margin:26px 0}
+.legend{display:flex; gap:18px; flex-wrap:wrap; margin:18px 0 0; font-size:14px}
+.legend span{display:inline-flex; align-items:center; gap:7px}
+.dot{width:11px; height:11px; border-radius:50%}
+.tag{display:inline-block; font-size:12px; font-weight:700; padding:2px 9px; border-radius:20px; vertical-align:middle; margin-right:7px}
+.tag.fact{background:var(--fact-bg); color:var(--fact)}
+.tag.claim{background:var(--claim-bg); color:var(--claim)}
+.panel{border-radius:14px; padding:18px 20px; margin:18px 0}
+.panel.fact{background:var(--fact-bg); border:1px solid #cfe6da}
+.panel.claim{background:var(--claim-bg); border:1px solid #ecdcbc}
+.panel h4{margin:0 0 8px; font-size:15px; font-weight:800; letter-spacing:.02em}
+.panel.fact h4{color:var(--fact)}
+.panel.claim h4{color:var(--claim)}
+.panel p{margin:8px 0; font-size:16px}
+ul{margin:14px 0; padding-left:22px}
+li{margin:7px 0}
+.stat{display:flex; gap:14px; flex-wrap:wrap; margin:22px 0}
+.stat .box{flex:1 1 150px; background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px 18px}
+.stat .num{font-size:26px; font-weight:800; color:var(--accent); line-height:1.1}
+.stat .lbl{font-size:13px; color:var(--muted); margin-top:6px}
+.src{font-size:14px; color:var(--muted)}
+sup a{text-decoration:none; font-weight:700; color:var(--accent)}
+.sources{margin-top:18px; border-top:1px solid var(--line); padding-top:20px}
+.sources ol{padding-left:22px; font-size:14px; color:var(--muted)}
+.sources li{margin:9px 0; word-break:break-all}
+.disclaimer{font-size:14px; color:var(--muted); font-style:italic; margin-top:40px; border-left:3px solid var(--line); padding-left:16px}
+hr{border:0; border-top:1px solid var(--line); margin:50px 0}
+
+/* ── 글 하단 이동 ── */
+.postnav{display:flex; justify-content:space-between; gap:14px; margin-top:46px; padding-top:24px; border-top:1px solid var(--line); font-size:15px}
+.postnav a{text-decoration:none; font-weight:700}
+.postnav .disabled{color:var(--muted); font-weight:400}
+
+/* ── 허브(목록) 페이지 ── */
+.hub-hero{padding:70px 0 30px; border-bottom:1px solid var(--line)}
+.hub-hero .series{color:var(--accent); font-weight:800; letter-spacing:.08em; font-size:13px; text-transform:uppercase}
+.hub-hero h1{font-size:40px; margin:16px 0 16px}
+.hub-hero p{color:var(--muted); font-size:18px; margin:0; max-width:620px}
+.card-grid{display:flex; flex-direction:column; gap:18px; margin:38px 0}
+.card{display:block; background:var(--card); border:1px solid var(--line); border-radius:16px; padding:26px 26px; text-decoration:none; color:inherit; transition:border-color .15s, transform .15s}
+.card:hover{border-color:var(--accent); transform:translateY(-2px)}
+.card .epno{font-size:13px; font-weight:800; color:var(--accent); letter-spacing:.06em}
+.card h2{font-size:22px; margin:8px 0 10px; padding:0; border:0}
+.card p{margin:0; color:var(--muted); font-size:15.5px}
+.card .date{margin-top:14px; font-size:13px; color:var(--muted)}
+.card.soon{opacity:.7; cursor:default; pointer-events:none; border-style:dashed}
+.card.soon .epno{color:var(--muted)}
+.hub-foot{margin-top:50px; padding-top:24px; border-top:1px solid var(--line); font-size:14px; color:var(--muted)}
