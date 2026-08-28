@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://democratic.pages.dev/</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -501,6 +501,12 @@
   <url>
     <loc>https://democratic.pages.dev/posts/83-%EC%9E%AC%EC%A0%95%EC%8B%A0%EC%B2%AD%EB%B0%A9%EB%B2%95%EA%B8%B0%EA%B0%84%EB%B6%88%EA%B8%B0%EC%86%8C%EB%B6%88%EB%B3%B5</loc>
     <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://democratic.pages.dev/posts/84-%EC%B2%B4%ED%8F%AC%EB%8F%99%EC%9D%98%EC%95%88%EA%B0%80%EA%B2%B0%EC%A0%95%EC%A1%B1%EC%88%98%EB%B6%88%EC%B2%B4%ED%8F%AC%ED%8A%B9%EA%B6%8C</loc>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
