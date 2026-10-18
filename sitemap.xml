@@ -686,4 +686,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://democratic.pages.dev/posts/115-%EA%B5%AD%ED%9A%8C%EC%9D%98%EC%9B%90%EB%A9%B4%EC%B1%85%ED%8A%B9%EA%B6%8C%EB%9C%BB%EC%A0%81%EC%9A%A9%EB%8C%80%EC%83%81%EC%A7%81%EB%AC%B4%EC%83%81%EB%B0%9C%EC%96%B8%EC%A7%81%EB%AC%B4%EB%B6%80%EC%88%98%ED%96%89%EC%9C%84</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
