@@ -882,4 +882,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://democratic.pages.dev/posts/150-%EC%97%AC%EC%84%B1%EA%B3%B5%EC%B2%9C%ED%95%A0%EB%8B%B9%EC%A0%9C%EB%9C%BB%EB%B9%84%EB%A1%80%EB%8C%80%ED%91%9C%ED%99%80%EC%88%98%EC%88%9C%EB%B2%88%EC%A7%80%EC%97%AD%EA%B5%AC30%ED%8D%BC%EC%84%BC%ED%8A%B8%EA%B6%8C%EA%B3%A0%EA%B3%B5%EC%A7%81%EC%84%A0%EA%B1%B0%EB%B2%95%EC%A0%9C47%EC%A1%B0</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
