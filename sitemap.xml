@@ -900,4 +900,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://democratic.pages.dev/posts/153-%EC%84%A0%EA%B1%B0%EC%9A%B4%EB%8F%99%ED%99%95%EC%84%B1%EC%9E%A5%EC%B9%98%EC%82%AC%EC%9A%A9%EC%8B%9C%EA%B0%84%EC%96%B8%EC%A0%9C%EA%B9%8C%EC%A7%80%EC%97%B0%EC%84%A4%EC%98%A4%ED%9B%8411%EC%8B%9C%EB%A1%9C%EA%B3%A0%EC%86%A1%EC%98%A4%ED%9B%849%EC%8B%9C%EA%B3%B5%EC%A7%81%EC%84%A0%EA%B1%B0%EB%B2%95%EC%A0%9C79%EC%A1%B0%EC%A0%9C216%EC%A1%B0</loc>
+    <lastmod>2026-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
